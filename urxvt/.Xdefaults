@@ -1,9 +1,9 @@
-!URxvt.depth: 32
-!URxvt.background: [80]#000000
+URxvt.depth: 32
+URxvt.background: [70]#000000
 
-URxvt*.transparent: true
+!URxvt*.transparent: true
 ! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
-URxvt*.shading: 30
+!URxvt*.shading: 30
 
 !URxvt.font: -*-dejavu sans mono-medium-r-*--12-*-*-*-*-*-iso10646-1
 !URxvt.font: -*-dejavu sans mono-medium-r-*--12-*-*-*-*-*-iso8859-*
