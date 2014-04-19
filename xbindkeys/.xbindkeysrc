@@ -1,0 +1,58 @@
+# desktop environment controls
+
+#"xdotool key super+F9"
+# b:9 + release
+#"xdotool key super+F8"
+# b:8	
+#"xdotool key super+comma"
+"i3-msg workspace prev_on_display"
+ b:9
+#"xdotool key super+period"
+"i3-msg workspace next_on_display"
+ b:8
+"killall -SIGSTOP conky ; i3lock -nd -i ~/pictures/i3lock.png ; xset -dpms s off ; killall -SIGCONT conky"
+ control + alt + l
+"i3ldpms & systemctl suspend"
+ control + alt + s
+"urxvt -e screen env PWD=/home/xion gfv `xclip -selection clipboard -o`"
+ control + alt + BackSpace
+"scrot"
+ Print
+"scrot -s"
+ alt + Print
+
+
+# mpd controls
+
+#"~/scripting/mpris-utils.sh up"
+#"amixer -c AV710 set Master0 1%+"
+"mpc volume +2"
+ control + alt + KP_Up
+
+#"~/scripting/mpris-utils.sh down"
+#"amixer -c AV710 set Master0 1%-"
+"mpc volume -2"
+ control + alt + KP_Down
+
+"mpc toggle"
+ control + alt + KP_Begin
+"mpc toggle"
+ control + alt + w
+
+"mpc stop"
+ control + alt + KP_Home
+"mpc stop"
+ control + alt + q
+
+"mpc next"
+ control + alt + KP_Right
+"mpc next"
+ control + alt + d
+
+"mpc prev"
+ control + alt + KP_Left
+"mpc prev"
+ control + alt + a
+
+"~/scripting/mpris-utils.sh track"
+ control + alt + KP_Insert

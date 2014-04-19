@@ -1,0 +1,46 @@
+!URxvt.depth: 32
+!URxvt.background: [80]#000000
+
+URxvt*.transparent: true
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*.shading: 30
+
+!URxvt.font: -*-dejavu sans mono-medium-r-*--12-*-*-*-*-*-iso10646-1
+!URxvt.font: -*-dejavu sans mono-medium-r-*--12-*-*-*-*-*-iso8859-*
+!URxvt.font: -*-nimbus mono l-medium-r-*--14-*-*-*-*-*-iso10646-1
+
+!URxvt.boldFont: -*-dejavu sans mono-bold-r-*--12-*-*-*-*-*-iso10646-1
+!URxvt.boldFont: -*-dejavu sans mono-bold-r-*--12-*-*-*-*-*-iso8859-*
+!URxvt.boldFont: -*-nimbus mono l-bold-r-*--14-*-*-*-*-*-iso10646-1
+
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+URxvt.boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+
+URxvt.scrollBar: false
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  firefox
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+
+URxvt*foreground: white
+URxvt*background: black
+
+URxvt*color0: #000000
+URxvt*color1: #CC0000
+URxvt*color2: #4E9A06
+URxvt*color3: #C4A000
+URxvt*color4: #1974FF
+URxvt*color5: #9128D1
+URxvt*color6: #12B8B8
+URxvt*color7: #D3D7CF
+URxvt*color8: #5D5D5D
+URxvt*color9: #EF2929
+URxvt*color10: #8AE234
+URxvt*color11: #FCE94F
+URxvt*color12: #00A2FF
+URxvt*color13: #C064F4
+URxvt*color14: #34E2E2
+URxvt*color15: #EEEEEC
