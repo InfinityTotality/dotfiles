@@ -17,6 +17,9 @@ alt + b
 alt + {s,f}
 	bspc window -t {floating,fullscreen}
 
+alt + shift + {s,f}
+    bspc window -t {sticky,pseudo_tiled}
+
 alt + {grave,Tab}
 	bspc {window,desktop} -f last
 
@@ -55,7 +58,7 @@ alt + ctrl + {_,shift + }space
 alt + super + {h,j,k,l}
 	bspc window -e {left -10,down +10,up -10,right +10}
 
-alt + alt + shift + {h,j,k,l}
+alt + super + shift + {h,j,k,l}
 	bspc window -e {right -10,up +10,down -10,left +10}
 
 alt + ctrl + {1-9}

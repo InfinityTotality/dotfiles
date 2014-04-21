@@ -5,15 +5,19 @@
 #"xdotool key super+F8"
 # b:8	
 #"xdotool key super+comma"
-"i3-msg workspace prev_on_display"
+"bspc desktop -f prev.occupied"
  b:9
 #"xdotool key super+period"
-"i3-msg workspace next_on_display"
+"bspc desktop -f next.occupied"
  b:8
+"bspc desktop -f prev.free"
+ shift + b:9
+"bspc desktop -f next.free"
+ shift + b:8
 "killall -SIGSTOP conky ; i3lock -nd -i ~/pictures/i3lock.png ; xset -dpms s off ; killall -SIGCONT conky"
- control + alt + l
+ control + alt + o
 "i3ldpms & systemctl suspend"
- control + alt + s
+ control + alt + p
 "urxvt -e screen env PWD=/home/xion gfv `xclip -selection clipboard -o`"
  control + alt + BackSpace
 "scrot"

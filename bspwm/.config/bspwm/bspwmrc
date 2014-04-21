@@ -13,7 +13,7 @@ bspc rule -a Chromium desktop=^2
 bspc rule -a mplayer2 floating=on
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+bspc rule -a Steam floating=on
 
 cd .config/bspwm
-
 ./panel dzen2 &
